@@ -4,11 +4,11 @@ import { FaPaw, FaMedal, FaGamepad } from 'react-icons/fa';
 
 export const topics = [
   {
-    name: 'development',
+    name: 'code',
     icon: <BsCode />,
   },
   {
-    name: 'comedy',
+    name: 'comedie',
     icon: <BsEmojiSunglasses />,
   },
   {
@@ -16,19 +16,19 @@ export const topics = [
     icon: <FaGamepad />,
   },
   {
-    name: 'food',
+    name: 'nourriture',
     icon: <GiCakeSlice />,
   },
   {
-    name: 'dance',
+    name: 'danse',
     icon: <GiGalaxy />,
   },
   {
-    name: 'beauty',
+    name: 'beauté',
     icon: <GiLipstick />,
   },
   {
-    name: 'animals',
+    name: 'animaux',
     icon: <FaPaw />,
   },
   {
@@ -38,26 +38,26 @@ export const topics = [
 ];
 
 export const footerList1 = [
-  'About',
-  'Newsroom',
-  'Store',
+  'A propos',
+  'Nouveautés',
+  'Boutique',
   'Contact',
-  'Carrers',
+  'Recrutement',
   'ByteDance',
-  'Creator Directory',
+  'Liste des Créateurs',
 ];
 export const footerList2 = [
-  'TikTik for Good',
-  'Advertise',
-  'Developers',
-  'Transparency',
-  'TikTik Rewards',
+  'Définitivement TokTok',
+  'Annonces',
+  'Développeurs',
+  'Discrétion',
+  'Récompenses TokTok',
 ];
 export const footerList3 = [
-  'Help',
-  'Safety',
-  'Terms',
-  'Privacy',
-  'Creator Portal',
-  'Community Guidelines',
+  'Aide',
+  'Sécurité',
+  'Conditions',
+  'Vie Privée',
+  'Protail des Créateurs',
+  'Communauté',
 ];

@@ -15,7 +15,7 @@ const Sidebar = () => {
   const userProfile = false;
 
   const normalLink =
-    'flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold text-[#f51997] rounded';
+    'flex items-center gap-3 hover:bg-primary p-3 justify-center xl:justify-start cursor-pointer font-semibold rounded';
 
   return (
     <div>
@@ -33,7 +33,9 @@ const Sidebar = () => {
                 <p className="text-2xl">
                   <AiFillHome />
                 </p>
-                <span className="text-xl hidden xl:block">Chez Toi</span>
+                <span className="capitalize text-xl hidden xl:block">
+                  Chez Toi
+                </span>
               </div>
             </Link>
           </div>
@@ -61,11 +63,11 @@ const Sidebar = () => {
               </div>
             </div>
           )}
+          <Discover />
+          <SuggestedAccounts />
+          <Footer />
         </div>
       )}
-      <Discover />
-      <SuggestedAccounts />
-      <Footer />
     </div>
   );
 };
