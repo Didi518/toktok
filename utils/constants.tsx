@@ -8,7 +8,7 @@ export const topics = [
     icon: <BsCode />,
   },
   {
-    name: 'comédie',
+    name: 'humour',
     icon: <BsEmojiSunglasses />,
   },
   {
