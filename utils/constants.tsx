@@ -24,7 +24,7 @@ export const topics = [
     icon: <GiGalaxy />,
   },
   {
-    name: 'beauté',
+    name: 'magnifique',
     icon: <GiLipstick />,
   },
   {
